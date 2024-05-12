@@ -9,7 +9,7 @@
 ## By using -> Php artisan make:migration create_students_table
 ## Run MIgration -> php artisan migrate
 
-# Wow you almost there 
+# Wow you are almost there 
 
 ## next step is to make controller and Model
 ## by using -> php artisan make:controller StudentController
