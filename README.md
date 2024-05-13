@@ -1,19 +1,49 @@
-# crud-in-laravel
- 
-## First I run these commands to install the laravel
 
-## composer create-project laravel/laravel crud-in-laravel
-## php artisan serve
-## then we need to connect our database to this App.
-## Next Step is to Create a migration Table of Students 
-## By using -> Php artisan make:migration create_students_table
-## Run MIgration -> php artisan migrate
+# Crud in Laravel
 
-# Wow you are almost there 
+Basic Laravel Crud App where we create Students and perform different actions 
+like create, edit, update, delete, and show
 
-## next step is to make controller and Model
-## by using -> php artisan make:controller StudentController
-## -> php artisan make:model Student
 
-## After you run all the commands you need to follow the code that I provided.
+## Demo
+
+Preview the demo link
+https://vimeo.com/manage/videos/945703534
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Danish1042/crud-in-laravel
+```
+
+Go to .env file and set the database
+
+```bash
+  DB_DATABASE=crud_in_laravel
+```
+
+Run migration command
+
+```bash
+  php artisan migrate
+```
+
+Start the server
+
+```bash
+  php artisan serve
+```
+
+
+## Support
+
+For support, email rajadanish2321@gmail.com .
+
+
+## Authors
+
+- [@Danish1042](https://github.com/Danish1042)
 
